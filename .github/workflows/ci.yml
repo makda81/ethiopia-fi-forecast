@@ -16,9 +16,8 @@ jobs:
       with:
         python-version: '3.10'
     - name: Install dependencies
-      run: |
-        pip install -r requirements.txt
-    - name: Run enrichment
+      run: pip install -r requirements.txt
+    - name: Enrich data
       run: python enrich_data.py
     - name: Validate impacts
       run: python validate_impacts.py
