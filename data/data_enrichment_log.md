@@ -1,7 +1,6 @@
 # Data Enrichment Log
 
 ## Rationale
-
 The starter dataset lacked several key drivers of financial inclusion. Based on the Additional Data Points Guide (Sheets B and C), we added observations, events, and impact links to improve forecasting.
 
 ---
@@ -35,13 +34,7 @@ The starter dataset lacked several key drivers of financial inclusion. Based on 
 ---
 
 ## Data Integrity Checks
-
 - All new records follow the unified schema.
 - No duplicates in `record_id`.
 - Events have empty `pillar` to avoid bias.
 - Impact links have a valid `parent_id` referencing an existing event.
-
-## Next Steps
-
-- More impact links will be added in Task 3 based on model results and literature.
-- Additional observations (e.g., merchant acceptance, gender‑disaggregated data) may be added later.
