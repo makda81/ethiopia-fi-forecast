@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.whl
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Data – optionally ignore raw data to keep it private
+# data/raw/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# OS generated
+Thumbs.db do i just create all those inside gitignore

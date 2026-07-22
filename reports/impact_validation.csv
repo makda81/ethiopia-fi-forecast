@@ -1,0 +1,2 @@
+record_id,parent_id,related_indicator,impact_direction,impact_magnitude,impact_estimate,lag_months,evidence_basis
+IMP_0001,EVT_0011,ACC_AGENT_DENSITY,increase,medium,15.0,6.0,literature
